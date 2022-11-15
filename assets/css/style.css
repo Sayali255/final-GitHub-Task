@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+     
+      background-image: linear-gradient(to right,rgba(11, 4, 104, 0.831), rgba(137, 11, 114, 0.847), rgba(119, 4, 90, 0.847), rgba(64, 48, 165, 0.836));
+  }
+  .search-input::placeholder{
+      color:white;
+  }
+  .search-input{
+    background-image: linear-gradient(to right,rgba(3, 55, 97, 0.831), rgba(22, 3, 91, 0.799),rgba(16, 87, 137, 0.831), rgba(22, 3, 91, 0.799));
+      border-radius:10px;
+      
+  }
+  .center{
+      padding:200px 0;
+  }
+  
+  .card{
+      width:100%;
+      border-radius: 10px;
+      background-image: linear-gradient(to right,rgba(3, 55, 97, 0.831), rgba(22, 3, 91, 0.799),rgba(16, 87, 137, 0.831), rgba(22, 3, 91, 0.799));
+      color:white;
+      padding:40px;
+  }
+  .icons {
+      position: absolute;
+      right: 37px;
+      font-size: 20px;
+      top: 10px;
+      cursor: pointer;
+      color:#fff;
+  }
+  .userImg{
+      width:100px;
+      object-fit: cover;
+  }
+  .avatar{
+      width:100%;
+      border-radius:50%;
+  }
+  
+  .info,.info-icon{
+      list-style: none;
+      display: flex;
+      justify-content:space-evenly;
+   }
+  .info-icon li{
+    margin-right:100px;
+  }
+   .info{
+      color:white;
+      background-color: rgba(2, 2, 35, 0.741);
+      padding:10px 0;
+      border-radius:0.52rem;
+   }
+  
+  .link{
+      display: inline-block;
+      text-decoration:none;
+      color: #fff;
+  }
+  #search{
+    color:#fff !important;
+  }
